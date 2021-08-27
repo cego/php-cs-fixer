@@ -2,8 +2,6 @@
 
 namespace Cego;
 
-use Illuminate\Support\Collection;
-
 class CegoRuleSet
 {
     /**
