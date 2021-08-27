@@ -33,6 +33,7 @@ class CegoRuleSet
             'full_opening_tag'                    => true,
             'whitespace_after_comma_in_array'     => true,
 
+            'return_type_declaration'     => ['space_before' => 'none'],
             'array_syntax'                => ['syntax' => 'short'],
             'no_extra_blank_lines'        => ['tokens' => ['extra']],
             'concat_space'                => ['spacing' => 'one'],
