@@ -1,0 +1,24 @@
+{
+    "name": "cego/php-cs-fixer",
+    "description": "Package for a common CEGO php-cs-fixer rules used company wide",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Niki Ewald Zakariassen",
+            "email": "niza@cego.dk"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "illuminate/support": "^8.56"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cego\\": "src/"
+        }
+    }
+}
