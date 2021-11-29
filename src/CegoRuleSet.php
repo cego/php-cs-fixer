@@ -31,6 +31,7 @@ class CegoRuleSet
             'full_opening_tag'                    => true,
             'whitespace_after_comma_in_array'     => true,
             'single_quote'                        => true,
+            'ternary_to_null_coalescing'          => true,
 
             'return_type_declaration'     => ['space_before' => 'none'],
             'array_syntax'                => ['syntax' => 'short'],
