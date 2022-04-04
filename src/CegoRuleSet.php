@@ -27,6 +27,8 @@ class CegoRuleSet
             'phpdoc_var_annotation_correct_order' => true,
             'phpdoc_order'                        => true,
             'trailing_comma_in_multiline'         => true,
+            'no_trailing_comma_in_singleline_array' => true,
+            'no_trailing_comma_in_singleline_function_call' => true,
             'object_operator_without_whitespace'  => true,
             'full_opening_tag'                    => true,
             'whitespace_after_comma_in_array'     => true,
