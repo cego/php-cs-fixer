@@ -12,12 +12,10 @@ class CegoRuleSet
     public static function get(): array
     {
         return [
-            '@PSR2'                               => true,
+            '@PSR12'                              => true,
             'no_blank_lines_after_phpdoc'         => true,
             'no_empty_phpdoc'                     => true,
             'no_unused_imports'                   => true,
-            'no_blank_lines_after_class_opening'  => true,
-            'no_whitespace_in_blank_line'         => true,
             'not_operator_with_space'             => true,
             'phpdoc_indent'                       => true,
             'phpdoc_scalar'                       => true,
