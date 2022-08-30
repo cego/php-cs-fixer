@@ -12,7 +12,7 @@ class CegoRuleSet
     public static function get(): array
     {
         return [
-            '@PSR2'                               => true,
+            '@PSR12'                              => true,
             'no_blank_lines_after_phpdoc'         => true,
             'no_empty_phpdoc'                     => true,
             'no_unused_imports'                   => true,
