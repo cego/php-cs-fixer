@@ -5,6 +5,7 @@ namespace Cego;
 use Traversable;
 use PhpCsFixer\Finder;
 use PhpCsFixer\Config;
+use ErickSkrauch\PhpCsFixer\Fixers;
 use PhpCsFixer\Fixer\FixerInterface;
 
 class CegoFixer
@@ -27,6 +28,7 @@ class CegoFixer
             ->setHideProgress(false)
             ->setUsingCache(true)
             ->registerCustomFixers($customFixers)
+            ->registerCustomFixers(new Fixers())
             ->setRules(array_merge(CegoRuleSet::get(), $customRules));
     }
 }
