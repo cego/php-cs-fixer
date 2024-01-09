@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": "^7.0|^8.0",
-        "friendsofphp/php-cs-fixer": "^3.5"
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "erickskrauch/php-cs-fixer-custom-fixers": "^1.2"
     },
     "autoload": {
         "psr-4": {

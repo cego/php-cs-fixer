@@ -31,14 +31,15 @@ class CegoRuleSet
             'single_quote'                        => true,
             'ternary_to_null_coalescing'          => true,
 
-            'return_type_declaration'     => ['space_before' => 'none'],
-            'array_syntax'                => ['syntax' => 'short'],
-            'no_extra_blank_lines'        => ['tokens' => ['extra']],
-            'concat_space'                => ['spacing' => 'one'],
-            'ordered_imports'             => ['sort_algorithm' => 'length'],
-            'binary_operator_spaces'      => ['operators' => ['=>' => 'align_single_space_minimal']],
-            'class_attributes_separation' => ['elements' => ['method' => 'one']],
-            'blank_line_before_statement' => ['statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try', 'for', 'foreach', 'if', 'switch', 'do', 'while']],
+            'return_type_declaration'                 => ['space_before' => 'none'],
+            'array_syntax'                            => ['syntax' => 'short'],
+            'no_extra_blank_lines'                    => ['tokens' => ['extra']],
+            'concat_space'                            => ['spacing' => 'one'],
+            'ordered_imports'                         => ['sort_algorithm' => 'length'],
+            'binary_operator_spaces'                  => ['operators' => ['=>' => 'align_single_space_minimal']],
+            'class_attributes_separation'             => ['elements' => ['method' => 'one']],
+            'blank_line_before_statement'             => ['statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try', 'for', 'foreach', 'if', 'switch', 'do', 'while']],
+            'ErickSkrauch/align_multiline_parameters' => ['variables' => true],
 
             'method_argument_space' => [
                 'keep_multiple_spaces_after_comma' => false,
